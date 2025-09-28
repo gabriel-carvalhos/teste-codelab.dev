@@ -52,6 +52,7 @@ const validator = new VerifyString(str);
 console.log(validator.string, validator.validate());
 
 // TESTES
+console.log("--- TESTES ---")
 validator.string = "()"
 console.log(validator.string, validator.validate());
 
